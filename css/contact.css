@@ -1,3 +1,15 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
+}
+.callme{
+    /* center this div*/
+    margin: auto;
+    width: 50%;
+    height: 50%;
+
+}
 .contact{
     color: rgb(236, 228, 228); 
     font-family: 'Helvetica Neue', sans-serif; 
@@ -9,48 +21,39 @@
     margin: 0; 
 }
 .p1{
-    width: 50%;
-    color: rgb(215, 199, 199); 
-    font-family: 'Verdana', sans-serif; 
-    text-align: center;
+    color: rgb(236, 228, 228); 
+    font-family: 'Verdana', sans-serif;
     font-size: 25px; 
     line-height: 1.5;
-    width: 750px;
+    letter-spacing: -1px; 
+    width:auto;
+    text-align: center;
+    padding: 0;
     margin-bottom: 1rem;
 }
 .input{
-    margin: auto;
-    width: 50%;
-    color: rgb(215, 199, 199); 
-    font-family: 'Verdana', sans-serif; 
+    margin: auto; 
     text-align: center;
-    font-size: 25px; 
     line-height: 1.5;
-    width: 750px;
+    width: 46.875rem;
     margin-bottom: 1rem;
 }
 .Mail{
+    width: 46.875rem;
     display: flex;
     align-items: center;
     position: relative; 
     margin: auto;
-    width: 500px;
     height: 30px;
-    border-radius: 5px;
     padding-left: 10px;
     margin-bottom: 1rem;
 }
 .text{
-    
+    width: 46.875rem;
     padding-top: 5px;
     padding-left: 5px;
-    font-size: 20px;
-    font-family: 'Verdana', sans-serif;
-    border-radius: 5px;
-    width: 750px;
-    /*height: 500px;*/
-    padding-bottom: 400px;
-    white-space: pre-wrap;
+    height: 500px;
+    
 }
 .btnSend{
     float: right;
