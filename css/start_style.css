@@ -11,13 +11,14 @@ body {
   
   
   #trapezoid {
+    
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     height: 0;
     border: 80px solid rgba(0,0,0,0);
     border-top: 0 solid;
-    border-bottom: 100px solid rgba(1, 1, 1, .4);
+    border-bottom: 100px solid rgba(1, 1, 1, .7);
     -webkit-border-radius: 20px 20px 0 0;
     border-radius: 20px 20px 0 0;
     font: normal 100%/normal Arial, Helvetica, sans-serif;
@@ -130,24 +131,3 @@ body {
     padding:3em 10em 3em 10em;
   }
   
-  h1{
-    color: #111; 
-    font-family: 'Helvetica Neue', sans-serif; 
-    font-size: 200px; 
-    font-weight: bold; 
-    letter-spacing: -1px; 
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
-  
-  p {
-    color: #111; 
-    font-family: 'Calibri', sans-serif; 
-    font-size: 25px; 
-    line-height: 1.5;
-  }
-  
-  hr {
-    background-color: #000;
-  }

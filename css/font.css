@@ -1,0 +1,27 @@
+h1{
+    color: rgb(236, 228, 228); 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 125px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  p {
+    color: rgb(215, 199, 199); 
+    font-family: 'Verdana', sans-serif; 
+    font-size: 25px; 
+    line-height: 1.5;
+  }
+  
+  hr {
+    background-color: rgb(228, 215, 215);
+  }
+  .owner{
+    color: rgb(234, 197, 197); 
+    font-family: 'Verdana', sans-serif; 
+    font-size: 25px; 
+    line-height: 1.5;
+  }
